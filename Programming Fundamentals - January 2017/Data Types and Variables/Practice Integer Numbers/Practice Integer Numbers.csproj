@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82C0C34E-5446-41AE-B0AA-D530E16721F0}</ProjectGuid>
+    <ProjectGuid>{2C1476E4-469E-43C1-A800-2F69D0606A67}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Practice_Integer_Numbers</RootNamespace>
     <AssemblyName>Practice_Integer_Numbers</AssemblyName>
