@@ -7,7 +7,7 @@
     <ProjectGuid>{2C1476E4-469E-43C1-A800-2F69D0606A67}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Practice_Integer_Numbers</RootNamespace>
-    <AssemblyName>Practice_Integer_Numbers</AssemblyName>
+    <AssemblyName>Practice Integer Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
