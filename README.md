@@ -4,8 +4,8 @@
 
 | Programming                     | Web Development            | Software Technologies
 | --------------------------------| -------------------------- | ----------------------------------|
-|                    |            Soon            |   [Programming Fundamentals - January 2017](#https://github.com/YaniLozanov/Software-University#Programming---Fundamentals--January--2017) 
-                           
+|            C#                     |         Coming Soon        |           Coming Soon             |
+                            
 
 
 
