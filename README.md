@@ -4,8 +4,8 @@
 
 | Programming                     | Web Development            | Software Technologies
 | --------------------------------| -------------------------- | ----------------------------------|
-|             Soon                |            Soon            |   Data Types and Variables        |
-                           
+|          [C#](#c)                    |         Coming Soon        |           Coming Soon             |
+                            
 
 
 
