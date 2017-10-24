@@ -12,13 +12,13 @@ namespace Vowel_or_Digit
         {
             char symbol = char.Parse(Console.ReadLine());
 
-            bool vowel = symbol == 'a' ||
+            bool vowel = symbol == 'a' ||   // vowel
                          symbol == 'e' ||
                          symbol == 'i' ||
                          symbol == 'o' ||
                          symbol == 'u';
 
-            bool digit = (int)symbol >= 48 && (int)symbol <= 57;
+            bool digit = (int)symbol >= 48 && (int)symbol <= 57;  // digit
 
             if (vowel)
             {

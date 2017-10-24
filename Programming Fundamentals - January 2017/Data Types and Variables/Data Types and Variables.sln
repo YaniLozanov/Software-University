@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle Properties", "Rec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vowel or Digit", "Vowel or Digit\Vowel or Digit.csproj", "{3A729A83-37F1-4FED-ADD5-508388533FDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer to Hex and Binary", "Integer to Hex and Binary\Integer to Hex and Binary.csproj", "{F9A5F017-4405-409F-8757-B31B76BE7F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fast Prime Checker", "Fast Prime Checker\Fast Prime Checker.csproj", "{176A6203-1D46-4B5C-BBC0-A73BC2656295}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{3A729A83-37F1-4FED-ADD5-508388533FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A729A83-37F1-4FED-ADD5-508388533FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A729A83-37F1-4FED-ADD5-508388533FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A5F017-4405-409F-8757-B31B76BE7F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A5F017-4405-409F-8757-B31B76BE7F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A5F017-4405-409F-8757-B31B76BE7F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A5F017-4405-409F-8757-B31B76BE7F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176A6203-1D46-4B5C-BBC0-A73BC2656295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176A6203-1D46-4B5C-BBC0-A73BC2656295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176A6203-1D46-4B5C-BBC0-A73BC2656295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176A6203-1D46-4B5C-BBC0-A73BC2656295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
