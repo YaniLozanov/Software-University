@@ -33,6 +33,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer to Hex and Binary",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fast Prime Checker", "Fast Prime Checker\Fast Prime Checker.csproj", "{176A6203-1D46-4B5C-BBC0-A73BC2656295}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparing Floats", "Comparing Floats\Comparing Floats.csproj", "{8A6E581D-8475-4E06-8BA7-24E5A5586F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Part of the ASCII Table", "Print Part of the ASCII Table\Print Part of the ASCII Table.csproj", "{BB75ABD2-AE73-459A-AF09-E5B202557B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Different Integers Size", "Different Integers Size\Different Integers Size.csproj", "{83889BBD-0FBE-451D-A363-D52C123D0993}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +105,18 @@ Global
 		{176A6203-1D46-4B5C-BBC0-A73BC2656295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{176A6203-1D46-4B5C-BBC0-A73BC2656295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{176A6203-1D46-4B5C-BBC0-A73BC2656295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6E581D-8475-4E06-8BA7-24E5A5586F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6E581D-8475-4E06-8BA7-24E5A5586F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6E581D-8475-4E06-8BA7-24E5A5586F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6E581D-8475-4E06-8BA7-24E5A5586F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB75ABD2-AE73-459A-AF09-E5B202557B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB75ABD2-AE73-459A-AF09-E5B202557B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB75ABD2-AE73-459A-AF09-E5B202557B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB75ABD2-AE73-459A-AF09-E5B202557B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83889BBD-0FBE-451D-A363-D52C123D0993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83889BBD-0FBE-451D-A363-D52C123D0993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83889BBD-0FBE-451D-A363-D52C123D0993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83889BBD-0FBE-451D-A363-D52C123D0993}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

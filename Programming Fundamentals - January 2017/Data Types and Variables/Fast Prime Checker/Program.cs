@@ -12,26 +12,19 @@ namespace Fast_Prime_Checker
         {
             int inputNumber = int.Parse(Console.ReadLine());
 
-            int index = 1;
-
-            for (int number = 1; number <= inputNumber; number++)
+            for (int number = 2; number <= inputNumber; number++)
             {
+                bool trueOrFalse = true;
+
                 for (int divisor = 2; divisor <= Math.Sqrt(number); divisor++)
                 {
-                    index = divisor;
-
-                    if (number % index == 0)
+                    if (number % divisor == 0)
                     {
-                        Console.WriteLine($"{number} is prime -> false");
-
+                        trueOrFalse = false;
+                        break;
                     }
-                    else
-                    {
-                        Console.WriteLine($"{number} is prime -> true");
-                    }
-
                 }
-               
+                Console.WriteLine($"{number} -> {trueOrFalse}");
             }
         }
     }
