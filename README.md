@@ -33,4 +33,4 @@
                
 <p align="center"><img src="Images/Professional Module.png" wight="200px" height="50px"></p>
 
-<p align="center"><stron>Coming Soon</strong></p>
+<p align="center">Coming Soon</p>
