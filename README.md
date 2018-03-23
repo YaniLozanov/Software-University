@@ -2,7 +2,7 @@
 
 <p align= "center" ><a href="https://softuni.bg/"><img src ="http://www.nakov.com/wp-content/uploads/2014/01/Software-University-Logo-blue-horizontal.png"></a></p>
 
-<h2 align="center">Entry Module</h2>
+<p align="center"><img src="Entry Module.png" wight="250px" height="60px"></p>
 
 | Module  	|  Courses	|
 |---	|---	|
