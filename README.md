@@ -20,7 +20,15 @@
 </p>
 
 <p align="center">
-  <img src="Fundamentals_Code.png"
+  <img src="Images/Fundamentals_Code.png" wight="250px" height="250""
+</p> 
+                                                                     
+<p align="center">
+  <img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/Software%20Technologies%20.png" wight="100px" height="25px">
+</p>
+
+<p align="center">
+  <img src="mages/Software Tehnologies_Code.png" wight="250px" height="250""
 </p> 
                
 <p align="center"><img src="Images/Professional Module.png" wight="200px" height="50px"></p>
