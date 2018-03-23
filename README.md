@@ -4,7 +4,14 @@
 
 <h2 align="center">Entry Module</h2>
 
+| Module  	|  Courses	|
+|---	|---	|
+|  Programming Basics 	|  Programming Basics 	|
 
-   
+<h2 align="center">Tech Module</h2>
 
-
+| Module  	      |  Courses	|
+|---	|---	      |
+|  Tech Module	|  Programming Fundamentals	|
+|              |  Software Technologies      |
+                
