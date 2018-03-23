@@ -13,10 +13,7 @@
 
 <p align="center"><img src="Images/Tech Module.png" wight="200px" height="50px"></p>
 
-| Module  	      |  Courses	|
-|---	|---	      |
-|  Tech Module	|  Programming Fundamentals	|
-|              |  Software Technologies      |
+<p align="center"><img src="Images/C# Fundamentals.png" wight="100px" height="25px"></p>
                 
 <p align="center"><img src="Images/Professional Module.png" wight="200px" height="50px"></p>
 
