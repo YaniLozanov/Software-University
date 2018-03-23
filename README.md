@@ -11,11 +11,17 @@
 
 <p align="center"><img src="Images/Programming Basics_Code.png" wight="250px" height="250"></p>
 
-<p align="center"><img src="Images/Tech Module.png" wight="200px" height="50px"></p>
+<p align="center">
+  <img src="Images/Tech Module.png" wight="200px" height="50px">
+</p>
 
 <p align="center">
-<img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/C%23%20Fundamentals.png" wight="100px" height="25px">
+  <img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/C%23%20Fundamentals.png" wight="100px" height="25px">
 </p>
+
+<p align="center">
+  <img src="Fundamentals_Code.png"
+</p> 
                
 <p align="center"><img src="Images/Professional Module.png" wight="200px" height="50px"></p>
 
