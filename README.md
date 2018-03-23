@@ -7,9 +7,8 @@
 </br>
 <p align="center"><img src="Entry Module.png" wight="200px" height="50px"></p>
 
-| Module  	|  Courses	|
-|---	|---	|
-|  Programming Basics 	|  Programming Basics 	|
+<p align="center"><img src="Programming Basics.png" wight="100px" height="25px"></p>
+
 
 
 <p align="center"><img src="Tech Module.png" wight="200px" height="50px"></p>
@@ -20,3 +19,4 @@
 |              |  Software Technologies      |
                 
 <p align="center"><img src="Professional Module.png" wight="200px" height="50px"></p>
+ 	Programming Basics.png
