@@ -11,6 +11,7 @@
 |---	|---	|
 |  Programming Basics 	|  Programming Basics 	|
 
+
 <p align="center"><img src="Tech Module.png" wight="200px" height="50px"></p>
 
 | Module  	      |  Courses	|
@@ -18,3 +19,4 @@
 |  Tech Module	|  Programming Fundamentals	|
 |              |  Software Technologies      |
                 
+<p align="center"><img src="Professional Module.png" wight="200px" height="50px"></p>
