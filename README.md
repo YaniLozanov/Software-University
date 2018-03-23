@@ -13,7 +13,7 @@
 
 <p align="center"><img src="Images/Tech Module.png" wight="200px" height="50px"></p>
 
-<p align="center"><img src="Images/C# Fundamentals.png" wight="100px" height="25px"></p>
+<p align="left"><img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/C%23%20Fundamentals.png" wight="100px" height="25px"></p>
                 
 <p align="center"><img src="Images/Professional Module.png" wight="200px" height="50px"></p>
 
