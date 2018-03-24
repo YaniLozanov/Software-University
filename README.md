@@ -9,7 +9,7 @@
 
 <p align="center"><a href="Entry Module/Programming Basics/"><img src="Images/Programming Basics.png" wight="100px" height="25px"></a></p>
 
-<p align="center"><img src="Images/Programming Basics_Code.png" wight="250px" height="250"></p>
+<p align="center"><a href="Entry Module/Programming Basics/"><img src="Images/Programming Basics_Code.png" wight="250px" height="250"></a></p>
 
 <p align="center">
   <img src="Images/Tech Module.png" wight="200px" height="50px">
