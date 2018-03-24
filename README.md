@@ -1,7 +1,8 @@
 <h1 align="center">My education in Software University</h1>
 
 <p align= "center" >
-  <a href="https://softuni.bg/"><img src ="https://github.com/YaniLozanov/Software-University/blob/master/Images/Software-University-     Logo-blue-horizontal.png">
+  <a href="https://softuni.bg/">
+    <img src ="https://github.com/YaniLozanov/Software-University/blob/master/Images/Software-University-Logo-blue-horizontal.png">
   </a>
 </p>
 <h2 align="center"></h2>
