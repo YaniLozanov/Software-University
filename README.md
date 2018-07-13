@@ -10,13 +10,13 @@
 </br>
 
 <p align="center">
-  <a href="Entry Module">
+  <a href="https://github.com/YaniLozanov/Software-University/tree/master/Python">
    <img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/Gifs/Python.gif">
   </a>
 </p>
 
 <p align="center">
-  <a href="Entry Module/01.Programming Basics/">
+  <a href="https://github.com/YaniLozanov/Software-University/tree/master/QA">
     <img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/Gifs/QA.gif">
   </a>
 </p>
