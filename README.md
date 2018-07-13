@@ -22,14 +22,4 @@
 </p>
 
 
-<p align="center">
-  <a href="Tech Module/02.Software Technologies/">
-     <img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/Software%20Tehnologies_Code.png" wight="250px" height="250"
-  </a>                                                                                                                                            
-</p> 
-               
-<p align="center">
-  <img src="Images/Professional Module.png" wight="200px" height="50px">
-</p>
 
-<p align="center">Coming Soon</p>
