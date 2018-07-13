@@ -1,0 +1,424 @@
+=====================================================================================================
+
+TC1: The system is accessed through the Internet from its initial URL.
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/ with browser "Mozilla Firefox".
+
+Expected Result:
+It loads header, navigation bar (with hyperlinks:"Home","Product Category","Service and Support","All Products", the searchbox) and a home page.
+
+Execution Result:
+It loads header, navigation bar  and a home page.
+It isn’t displayed Service and Support, it is displayed only the hyperlink.
+
+Link: BUG-1
+
+=====================================================================================================
+
+TC2:The system is accessed through the Internet from its initial URL.
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/ with browser "Google Chrome".
+
+Expected Result:
+It loads header, navigation bar (with hyperlinks:"Home","Product Category","Service and Support","All Products", the searchbox) and a home page.
+
+Execution Result:
+It loads header, navigation bar  and a home page.
+It isn’t displayed Service and Support, it is displayed only the hyperlink.
+
+Link: BUG-1
+
+=====================================================================================================
+
+TC3:Testing the hyperlink "Home" on the navigation bar.
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click on the hyperlink "Home".
+
+Expected:
+It is displayed the home page.
+
+Execution Result:
+It is displayed the home page.
+
+====================================================================================================
+
+TC4:Testing the hyperlink "Product category" on the navigation bar.
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click on the hyperlink "Product category".
+
+Expected:
+It is displayed the Product category page.
+
+Execution Result:
+It is displayed the Product category page.
+
+====================================================================================================
+
+TC5:Testing the hyperlink "Service and Support" on the navigation bar.
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click on the hyperlink "Service and Support".
+
+Expected:
+It is displayed the Service and Support.
+
+Execution Result:
+It is displayed the Service and Support.
+
+===================================================================================================
+
+TC6:Testing the hyperlink "My Account"
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/.
+2. Click on the hyperlink "My Account".
+
+Expected:
+It is displayed a page with login and register options.
+
+Execution Result:
+It is displayed a page with login and register options.
+
+===================================================================================================
+
+TC7: Register with correct username and E-mail.
+
+Test Priority: Critical
+
+1. Click the hyperlink "My Account".
+2. Click the hyperlink "Register".
+3. Enter valid username.
+4. Enter valid E-mail.
+5. Click the button "Register".
+
+Expected:
+It is displayed an message:"Registration complete. Please check your email." And displayed box 
+login  windows.
+
+Execution Result:
+It is displayed an message:"Registration complete. Please check your email." And displayed box 
+login  windows.
+
+===================================================================================================
+
+TC8: Register with incorrect username.
+
+Test Priority: Critical
+
+1. Click the hyperlink "My Account"
+2. Click the hyperlink "Register".
+3. Enter invalid username.
+4. Enter valid E-mail
+5. Click the button "Register".
+
+Expected:
+It is displayed an message "This username is invalid because it uses illegal characters.
+Please enter a valid username.
+
+Execution Result:
+It is displayed an message "This username is invalid because it uses illegal characters.
+Please enter a valid username.
+
+====================================================================================================
+
+TC9: Register with incorrect E-mail.
+
+Test Priority: Critical
+
+1. Click the hyperlink "My Account"
+2. Click the hyperlink "Register".
+3. Enter valid username.
+4. Enter invalid E-mail.
+5. Click the button "Register".
+
+Expected:
+It is displayed an message "ERROR: The email address isn’t correct.".
+
+Execution Result:
+It is displayed an message "ERROR: The email address isn’t correct.".
+
+====================================================================================================
+
+TC10: Click the checkbox "Remember me" in the page "Log in". 
+
+Test Priority: Low
+
+1. Click the hyperlink "My Account".
+2. Enter valid username.
+3. Enter valid password.
+4. Click the checkbox "Remember me".
+5. Click the button "Log in".
+6. Leave the sait.
+7. Open http://store.demoqa.com/.
+
+Expected:
+We are still login in the Account.
+
+Execution Result:
+We are still login in the Account.
+
+====================================================================================================
+
+TC11: Attempt to login with wrong username.
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "My Account".
+3. Enter wrong username.
+4. Enter valid password.
+5. Click the button "Log In".
+
+Expected:
+It is displayed an message "ERROR: Incorrect username".
+
+Execution Result:
+It is displayed an message "ERROR: Incorrect username".
+
+====================================================================================================
+
+TC12: Attempt to login with wrong password.
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "My Account".
+3. Enter valid username.
+4. Enter wrong password.
+5. Click the button "Log In".
+
+Expected:
+It is displayed an message "ERROR: The password you entered for the username xxxx is incorrect."
+
+Execution Result:
+It is displayed an message "ERROR: The password you entered for the username xxxx is incorrect."
+
+====================================================================================================
+
+TC13: Test the hyperlink "Lost your password".
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "My Account".
+3. Enter valid username.
+4. Enter wrong password.
+5. Click the button "Log In".
+6. Click the hyperlink "Lost your password".
+
+Expected:
+It is displayed the page "Your Account".
+
+Execution Result:
+It is displayed the page "Your Account".
+
+====================================================================================================
+
+TC14: Test the hyperlink "Checkout".
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "Checkout".
+
+Expected:
+It is displayed the "Checkout" page.
+
+Execution Result:
+It is displayed the "Checkout" page.
+
+====================================================================================================
+
+TC15: Test the Search box with valid product.
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click in the Search box (Search the product).
+3. Write a  valid product.
+
+Expected:
+It is displayed the page with this product.
+
+Execution Result:
+It is displayed the page with this product.
+
+====================================================================================================
+
+TC16: Test the Search box with wrong product.
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click in the Search box (Search the product).
+3. Write a wrong product.
+
+Expected:
+It is displayed message "Sorry, but nothing matched your search criteria.
+Please try again with some different keywords."
+
+Execution Result:
+It is displayed message "Sorry, but nothing matched your search criteria.
+Please try again with some different keywords."
+
+====================================================================================================
+
+TC17: Test button "Grid" on the Product Category page.
+
+Test Priority: Medium
+
+1. Open  http://store.demoqa.com/.
+2. Click the hyperlink "All Product".
+3. Click the button "Grid".
+
+Expected:
+It shows all product in Grid view.
+
+Execution Result:
+It shows all product in Grid view.
+
+====================================================================================================
+
+TC18: Test button "List" on the Product Category page.
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "All Product".
+3. Click button "Grid".
+4. Click button "List".
+
+Expected:
+It shows the products in List view.
+
+Execution Result:
+It shows the products in List view.
+
+====================================================================================================
+
+TC19: Test the hyperlink "More info".
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "More info".
+
+Expected:
+It is displayed the page with information for the chosen product.
+
+Execution Result:
+It is displayed the page with information for the chosen product.
+
+====================================================================================================
+
+TC20: Test the hyperlink "More Details".
+
+Test Priority: Medium
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "More Details".
+
+Expected:
+It is displayed the page with details for the chosen product.
+
+Execution Result:
+It is displayed the page with details for the chosen product.
+
+====================================================================================================
+
+TC21.1: Test the hyperlink "Log Out"
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "My Account".(The user is registered.)
+3. Enter valid username.
+4. Enter valid password.
+5. Click the button "Log in".
+
+Expected:
+It is displayed hyperlink "Log Out".
+
+Execution Result:
+It is displayed hyperlink "Log Out".
+
+====================================================================================================
+
+TC21.2: Test the hyperlink "Log Out".
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/.
+2. Click the hyperlink "My Account".(The user is registered.)
+3. Enter valid username.
+4. Enter valid password.
+5. Click the button "Log in".
+6. Click the hyperlink "Log Out".
+
+Expected:
+User is successfully logged out and there should be a redirect to the Log in and Register page.
+
+Execution Result:
+User is successfully logged out and there  redirect to the Log in and Register page.
+
+===================================================================================================
+
+TC22: Test the slider section.
+
+Test Priority: Critical
+
+1. Open http://store.demoqa.com/.
+2. Click the sliders buttons
+
+Expected:
+Leads to the Next/Previous slide.
+
+Execution Result: 
+leads to the Next/Previous slide.
+
+
+====================================================================================================
+================================================||||||==============================================
+
+                                                 BUGS
+												 
+BUG-1: It is displayed the hyperlink link for Service and Support , but isn’t displayed the title.					
+
+1. Open http://store.demoqa.com/.
+
+Link:
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

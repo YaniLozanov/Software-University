@@ -1,0 +1,98 @@
+----------------------------------------------------------------------------------------------------
+
+TC1:Testing the the input field with 0 symbols.
+
+Test Priority: Critical
+
+1.Open https://box.uk.qateam.eu/04/bva/
+2.Click the button "Send your message".
+
+Expected:
+It is displayed message:"Моля,попълнете полето".
+
+=====================================================================================================
+
+TC2: Testing the input field with 1 symbol.
+
+Test Priority: Critical
+
+1.Open https://box.uk.qateam.eu/04/bva/
+2.Write in the input field an random symbol.
+3.Click the button "Send your message".
+
+Expected:
+It is displayed:"Моля използвайте най-малко 2 знака (сега използвате 1 знака)".
+
+====================================================================================================
+
+TC3: Testing the input field with 2 symbols.
+
+Test Priority: Critical
+
+1.Open https://box.uk.qateam.eu/04/bva/
+2.Write in the input field two random symbols.
+3.Click the button "Send your message".
+
+Expected:
+It is displayed:"Thanks for submitting the form."
+
+====================================================================================================
+
+TC4:Testing the input field with 3 symbols.
+
+Test Priority: Low
+
+1.Open https://box.uk.qateam.eu/04/bva/
+2.Write in the input field three random symbols.
+3.Click the button "Send your message".
+
+Expected:
+It is displayed:"Thanks for submitting the form."
+
+====================================================================================================
+
+TC4:Testing the input field with 8 symbols.
+
+Test Priority: Low
+
+1.Open https://box.uk.qateam.eu/04/bva/
+2.Write in the input field eight random symbols.
+3.Click the button "Send your message".
+
+Expected:
+It is displayed:"Thanks for submitting the form."
+====================================================================================================
+
+TC5:Testing the input field with 9 symbols.
+
+Test Priority: Critical
+
+1.Open https://box.uk.qateam.eu/04/bva/
+2.Write in the input field nine random symbols.
+3.Click the button "Send your message".
+
+Expected:
+It is displayed:"Thanks for submitting the form."
+
+====================================================================================================
+
+TC6:Testing the input field with 10 symbols.
+
+Test Priority: Critical
+
+1.Open https://box.uk.qateam.eu/04/bva/
+2.Write in the input field ten random symbols.
+3.Click the button "Send your message".
+
+Expected:
+We can't write more than nine symbols.
+
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+ 

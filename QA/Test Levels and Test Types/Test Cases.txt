@@ -1,0 +1,1235 @@
+==============================================================================================================================================
+                                              TEST CASES - http://uk.qateam.eu/PhotoAlbum/home/inde
+=============================================^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^============================================
+
+                                                          Homework: Yani Lozanov
+                                             
+
+============================================================================================================================================
+                                                      TEST CASES FOCUSED ON USER MANAGMENT    
+======================================================------------------------------------==================================================
+                                                                     ||
+																	 ||
+																	 ||
+																	_||_
+																	\  /
+                                                                     \/
+
+======================================================------------------------------------==================================================																	 
+
+TC1: The system is accessed through the Internet from its initial URL.
+
+Test Priority: Critical
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".							
+											 
+Expected Result:
+It loads header, navigation bar and the home page.
+
+==============================================================================================================================================
+
+TC2: Navigation bar - user management.
+
+Test Priority: Critical
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox" && The user isn`t unregistered.									  
+
+Expected Result:
+It loads header, navigation bar(with hyperlinks:"Home","Albums","Categories","Search","Add Album","Register","Log in")and the home page
+and it is displayed "You are not logged in." under <h1>.
+
+==============================================================================================================================================
+
+TC3: Navigation bar - user management.
+
+Test Priority: Critical
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".									  
+2. Click the hyperlink "Log in".
+3. Enter valid username and password.
+
+Expected Result:
+It loads header, navigation bar(with hyperlinks:"Home","Albums","Categories","Search","Add Album","Logout")and the home page
+and it is displayed "Welcome,user`s username" under <h1>.
+
+============================================================================================================================================
+
+TC4: Navigation bar - user management.
+
+Test Priority: Critical
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".									  
+2. Click the hyperlink "Log In". 
+3. Enter valid username and password.
+4. Click the hyperlink "Logout".
+
+Expected Result:
+It loads header, navigation bar(with hyperlinks:"Home","Albums","Categories","Search","Add Album","Register","Log in")and the home page
+and it is displayed "You are not logged in." under <h1>.
+
+============================================================================================================================================
+                                                      TEST CASES FOCUSED ON NAVIGATION BAR   
+======================================================------------------------------------==================================================
+                                                                     ||
+																	 ||
+																	 ||
+																	_||_
+																	\  /
+                                                                     \/
+
+======================================================------------------------------------==================================================																	 
+============================================================================================================================================
+                                                            THE HYPER LINK "HOME"
+TC5: Test the hyperlink: "Home".
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Home".
+
+Expected Result:
+It is displayed:
+Home page: 
+Navigation bar
+Three Album blocks ordered by highest rating and a
+header “Most highly ranked albums”.
+Button "Vote".
+Button "Comment".
+
+=============================================================================================================================================
+
+TC6: Test the hyperlink: "Home" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Albums".
+3. Click the hyperlink: "HOME".
+
+Expected Result:
+It is displayed:
+Home page: 
+Navigation bar
+Three Album blocks ordered by highest rating and a
+header “Most highly ranked albums”.
+Button "Vote".
+Button "Comment".
+
+============================================================================================================================================
+
+TC8: Test the hyperlink: "Home" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Categories".
+3. Click the hyperlink: "HOME".
+
+Expected Result:
+It is displayed:
+Home page: 
+Navigation bar
+Three Album blocks ordered by highest rating and a
+header “Most highly ranked albums”.
+Button "Vote".
+Button "Comment".
+
+============================================================================================================================================
+
+TC9: Test the hyperlink: "Home" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Search".
+3. Click the hyperlink: "HOME".
+
+Expected Result:
+It is displayed:
+Home page: 
+Navigation bar
+Three Album blocks ordered by highest rating and a
+header “Most highly ranked albums”.
+Button "Vote".
+Button "Comment".
+
+============================================================================================================================================
+
+
+TC10: Test the hyperlink: "Home" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Add Albums".
+3. Click the hyperlink: "HOME".
+
+Expected Result:
+It is displayed:
+Home page: 
+Navigation bar
+Three Album blocks ordered by highest rating and a
+header “Most highly ranked albums”.
+Button "Vote".
+Button "Comment".
+
+============================================================================================================================================
+
+TC11: Test the hyperlink: "Home" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Register".
+3. Click the hyperlink: "HOME".
+
+Expected Result:
+It is displayed the home page.
+
+============================================================================================================================================
+
+TC12: Test the hyperlink: "Home" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Log In".
+3. Click the hyperlink: "HOME".
+
+Expected Result:
+It is displayed:
+Home page: 
+Navigation bar
+Three Album blocks ordered by highest rating and a
+header “Most highly ranked albums”.
+Button "Vote".
+Button "Comment".
+
+============================================================================================================================================
+                                                              THE HYPER LINK "Albums"
+============================================================================================================================================
+
+TC13: Test the hyperlink: "Albums" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Albums".
+
+
+Expected Result:
+It is displayed the Albums.														  
+															  
+============================================================================================================================================
+															  
+TC14: Test the hyperlink: "Albums" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "HOME".
+3. Click the hyperlink: "Albums".
+
+Expected Result:
+It is displayed the Albums.																  
+															  
+============================================================================================================================================	
+														  
+TC14: Test the hyperlink: "Albums" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Albums".
+3. Click the hyperlink: "Albums".
+
+Expected Result:
+It is displayed the Albums.	
+============================================================================================================================================
+															  
+TC15: Test the hyperlink: "Albums" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Categories".
+3. Click the hyperlink: "Albums".
+
+Expected Result:
+It is displayed the Albums.																  
+															  
+=============================================================================================================================================														  
+																  
+TC16: Test the hyperlink: "Albums" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Search".
+3. Click the hyperlink: "Albums".
+
+Expected Result:
+It is displayed the Albums.																  
+															  
+=============================================================================================================================================														  
+																  
+TC17: Test the hyperlink: "Albums" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Add Album".
+3. Click the hyperlink: "Albums".
+
+Expected Result:
+It is displayed the Albums.															  
+															  
+=============================================================================================================================================														  
+																		  
+TC18: Test the hyperlink: "Albums" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Register".
+3. Click the hyperlink: "Albums".
+
+Expected Result:
+It is displayed the Albums.															  
+															  
+=============================================================================================================================================												  
+																						  
+TC19: Test the hyperlink: "Albums" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Log In".
+3. Click the hyperlink: "Albums".
+
+Expected Result:
+It is displayed the Albums.														  
+															  
+=============================================================================================================================================								  
+															  THE HYPER LINK "Categories"
+=============================================================================================================================================							
+							
+TC20: Test the hyperlink: "Categories" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Home".
+3. Click the hyperlink: "Categories".
+
+Expected Result:
+It is displayed the Categories.															  
+															  
+=============================================================================================================================================														  
+																								  
+TC20: Test the hyperlink: "Categories" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Albums".
+3. Click the hyperlink: "Categories".
+
+Expected Result:
+It is displayed the Categories.															  
+															  
+=============================================================================================================================================														  														  
+																								  
+TC21: Test the hyperlink: "Categories" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Categories".
+3. Click the hyperlink: "Categories".
+
+Expected Result:
+It is displayed the Categories.																  
+															  
+=============================================================================================================================================															  
+															  
+																										  
+TC22: Test the hyperlink: "Categories" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Search".
+3. Click the hyperlink: "Categories".
+
+Expected Result:
+It is displayed the Categories.																  
+															  
+=============================================================================================================================================													  															  															  
+																											  
+TC23: Test the hyperlink: "Categories" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Add Album".
+3. Click the hyperlink: "Categories".
+
+Expected Result:
+It is displayed the Categories.																  
+															  
+=============================================================================================================================================												  
+																										  
+TC24: Test the hyperlink: "Categories" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Register".
+3. Click the hyperlink: "Categories".
+
+Expected Result:
+It is displayed the Categories.																  
+															  
+=============================================================================================================================================													  
+																									  
+TC25: Test the hyperlink: "Categories" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Log In".
+3. Click the hyperlink: "Categories".
+
+Expected Result:
+It is displayed the Categories.																  
+															  
+=============================================================================================================================================														  																							  
+															  THE HYPER LINK "Search"
+=============================================================================================================================================
+															  
+TC26: Test the hyperlink: "Search" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Home".
+3. Click the hyperlink: "Search".
+
+Expected Result:
+It is displayed a search box.													  
+
+============================================================================================================================================
+															  
+TC27: Test the hyperlink: "Search" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Albums".
+3. Click the hyperlink: "Search".
+
+Expected Result:
+It is displayed a search box.															  
+
+============================================================================================================================================															  
+															  
+TC28: Test the hyperlink: "Search" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Categories".
+3. Click the hyperlink: "Search".
+
+Expected Result:
+It is displayed a search box.															  
+
+============================================================================================================================================
+														  
+TC29: Test the hyperlink: "Search" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Search".
+3. Click the hyperlink: "Search".
+
+Expected Result:
+It is displayed a search box.															  
+
+============================================================================================================================================														  
+															  
+TC30: Test the hyperlink: "Search" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Add album".
+3. Click the hyperlink: "Search".
+
+Expected Result:
+It is displayed a search box.															  
+
+============================================================================================================================================															  
+															  
+TC31: Test the hyperlink: "Search" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Register".
+3. Click the hyperlink: "Search".
+
+Expected Result:
+It is displayed a search box.														  
+
+============================================================================================================================================
+
+TC32: Test the hyperlink: "Search" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Log In".
+3. Click the hyperlink: "Search".
+
+Expected Result:
+It is displayed a search box.															  
+
+============================================================================================================================================
+															  THE HYPER LINK "Add album"
+============================================================================================================================================
+
+TC33: Test the hyperlink: "Add album" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Home".
+3. Click the hyperlink: "Add album".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Album name : "name".
+Category name "category name".
+Album description: "album description".
+Button : Create album
+
+===========================================================================================================================================
+
+TC34: Test the hyperlink: "Add album" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Albums".
+3. Click the hyperlink: "Add album".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Album name : "name".
+Category name "category name".
+Album description: "album description".
+Button : Create album
+
+============================================================================================================================================
+
+TC35: Test the hyperlink: "Add album" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Categories".
+3. Click the hyperlink: "Add album".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Album name : "name".
+Category name "category name".
+Album description: "album description".
+Button : Create album
+
+============================================================================================================================================
+
+TC36: Test the hyperlink: "Add album" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Search".
+3. Click the hyperlink: "Add album".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Album name : "name".
+Category name "category name".
+Album description: "album description".
+Button : Create album
+
+============================================================================================================================================
+
+TC37: Test the hyperlink: "Add album" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Add album".
+3. Click the hyperlink: "Add album".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Album name : "name".
+Category name "category name".
+Album description: "album description".
+Button : Create album
+
+============================================================================================================================================
+
+TC38: Test the hyperlink: "Add album" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Register".
+3. Click the hyperlink: "Add album".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Album name : "name".
+Category name "category name".
+Album description: "album description".
+Button : Create album
+
+============================================================================================================================================
+
+TC39: Test the hyperlink: "Add album" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Log In".
+3. Click the hyperlink: "Add album".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Album name : "name".
+Category name "category name".
+Album description: "album description".
+Button : Create album
+
+============================================================================================================================================
+															  THE HYPER LINK "Register"
+============================================================================================================================================
+
+TC40: Test the hyperlink: "Register" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Home".
+3. Click the hyperlink: "Register".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Register".
+
+============================================================================================================================================
+
+TC41: Test the hyperlink: "Register" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Albums".
+3. Click the hyperlink: "Register".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Register".
+
+============================================================================================================================================
+
+TC42: Test the hyperlink: "Register" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Categories".
+3. Click the hyperlink: "Register".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Register".
+
+============================================================================================================================================
+
+TC43: Test the hyperlink: "Register" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Search".
+3. Click the hyperlink: "Register".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Register".
+
+============================================================================================================================================
+
+TC44: Test the hyperlink: "Register" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Add album".
+3. Click the hyperlink: "Register".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Register".
+
+============================================================================================================================================
+
+TC45: Test the hyperlink: "Register" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Register".
+3. Click the hyperlink: "Register".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Register".
+
+============================================================================================================================================
+
+TC46: Test the hyperlink: "Register" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Log In".
+3. Click the hyperlink: "Register".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Register".
+
+============================================================================================================================================
+															  THE HYPER LINK "Log In"
+============================================================================================================================================
+
+TC41: Test the hyperlink: "Log In" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Home".
+3. Click the hyperlink: "Log In".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Log In".
+
+============================================================================================================================================
+
+TC41: Test the hyperlink: "Log In" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Home".
+3. Click the hyperlink: "Log In".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Log In".
+
+============================================================================================================================================
+
+TC42: Test the hyperlink: "Log In" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Albums".
+3. Click the hyperlink: "Log In".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Log In".
+
+============================================================================================================================================
+TC43: Test the hyperlink: "Log In" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Categories".
+3. Click the hyperlink: "Log In".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Log In".
+
+============================================================================================================================================
+
+TC44: Test the hyperlink: "Log In" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Search".
+3. Click the hyperlink: "Log In".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Log In".
+
+============================================================================================================================================
+
+TC45: Test the hyperlink: "Log In" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Add album".
+3. Click the hyperlink: "Log In".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Log In".
+
+============================================================================================================================================
+
+TC46: Test the hyperlink: "Log In" .
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Register".
+3. Click the hyperlink: "Log In".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Log In".
+
+============================================================================================================================================
+
+TC47: Test the hyperlink: "Log In" .
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the hyperlink: "Log In".
+3. Click the hyperlink: "Log In".
+
+Expected Result:
+It is displayed a box with paragraphs:
+username : "username".
+password : "password".
+Button : "Log In".
+
+============================================================================================================================================
+                                                      TEST CASES FOCUSED ON THE HYPERLINK "HOME"   
+======================================================------------------------------------==================================================
+                                                                     ||
+																	 ||
+																	 ||
+																	_||_
+																	\  /
+                                                                     \/
+
+======================================================------------------------------------==================================================																	 
+============================================================================================================================================
+
+TC48: Test the hyperlink: "name  of the album" number[1,2,3....n].                       // Counting starts from above.
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the name of  the album.
+
+Expected Result:
+It is displayed:
+The name of the category as hyperlink.
+The description.
+The user`s name.
+The pictures and the names of the pictures.
+Date of creation.
+Comments.
+Rating.
+Two buttons: "Vote" ,"Comment".
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+TC48.1: Test the hyperlink : "Category:"Category name"".                            // in the album.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the name of  the album.
+3. Click hyperlink "Category:"Name""
+
+Expected Result:
+It is displayed the page with the albums in this category.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+TC48.2: Test the picture, when we click on it.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the name of  the album.
+3. Click the picture number [1,2,3....n].                      // Counting start from left to right.
+
+Expected Result:
+It is displayed:
+The name of the picture.
+The picture in bigger size.
+Albums name.
+Description.
+Date of creation.
+User`s name.
+Rating.
+Two buttons: "Vote" ,"Comment".
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+TC48.2.1: Test button: "Vote"                            // The button under the picture
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the name of  the album.
+3. Click the picture number [1,2,3....n].                      // Counting start from left to right.
+4. Click the button: "Vote".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Rate:"number".
+Button: "Vote".
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+TC48.2.2: Test button: "Comment"                            // The button under the picture
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the name of  the album.
+3. Click the picture number [1,2,3....n].                      // Counting start from left to right.
+4. Click the button: "Comment".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Comment text: "text" 
+Button: "Create comment".
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+TC48.3: Test button: "Vote"                            // The button under the pictures
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the name of  the album.
+3. Click the button: "Vote".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Rate:"number".
+Button: "Vote".
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+TC48.4: Test button: "Comment"                            // The button under the pictures
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the name of  the album.
+3. Click the button: "Comment".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Comment text: "text" 
+Button: "Create comment".
+
+============================================================================================================================================
+
+TC49: Test the hyperlink: "Categoruy:"category name"".             // At frame of the album number [1,2,3,....n].Counting starts from above.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the name of  the album.
+3
+
+Expected Result:
+It is displayed the page with the albums in this category.
+
+===========================================================================================================================================
+
+TC50: Test the button: "Vote"                             // At frame of the album number [1,2,3,....n].Counting starts from above.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the button: "Vote".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Rate:"number".
+Button: "Vote".
+
+============================================================================================================================================
+
+TC51: Test button: "Comment"                           // At frame of the album number [1,2,3,....n].Counting starts from above.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click the button: "Comment".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Comment text: "text" 
+Button: "Create comment".
+
+============================================================================================================================================
+                                                      TEST CASES FOCUSED ON THE HYPERLINK "Albums"   
+======================================================------------------------------------==================================================
+                                                                     ||
+																	 ||
+																	 ||
+																	_||_
+																	\  /
+                                                                     \/
+
+======================================================------------------------------------==================================================																	 
+============================================================================================================================================
+
+TC52: Test the hyperlink: "name  of the album" number[1,2,3....n] in the page "Albums".                       // Counting starts from above.
+
+Test Priority: Medium
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the name of  the album.
+
+Expected Result:
+It is displayed:
+The name of the category as hyperlink.
+The description.
+The user`s name.
+The pictures and the names of the pictures.
+Date of creation.
+Comments.
+Rating.
+Two buttons: "Vote" ,"Comment".
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+TC52.1: Test the hyperlink : "Category:"Category name"".                            // in the album.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the name of  the album.
+4. Click hyperlink "Category:"Name""
+
+Expected Result:
+It is displayed the page with the albums in this category.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+TC52.2: Test the picture, when we click on it.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the name of  the album.
+4. Click the picture number [1,2,3....n].                      // Counting start from left to right.
+
+Expected Result:
+It is displayed:
+The name of the picture.
+The picture in bigger size.
+Albums name.
+Description.
+Date of creation.
+User`s name.
+Rating.
+Two buttons: "Vote" ,"Comment".
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+TC52.2.1: Test button: "Vote"                            // The button under the picture
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the name of  the album.
+4. Click the picture number [1,2,3....n].                      // Counting start from left to right.
+5. Click the button: "Vote".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Rate:"number".
+Button: "Vote".
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+TC52.2.2: Test button: "Comment"                            // The button under the picture
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the name of  the album.
+4. Click the picture number [1,2,3....n].                      // Counting start from left to right.
+5. Click the button: "Comment".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Comment text: "text" 
+Button: "Create comment".
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+TC52.3: Test button: "Vote"                            // The button under the pictures
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the name of  the album.
+4. Click the button: "Vote".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Rate:"number".
+Button: "Vote".
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+TC52.4: Test button: "Comment"                            // The button under the pictures
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the name of  the album.
+4. Click the button: "Comment".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Comment text: "text" 
+Button: "Create comment".
+
+============================================================================================================================================
+
+TC53: Test the hyperlink: "Categoruy:"category name"" in the page "Albums".             // At frame of the album number [1,2,3,....n].Counting starts from above.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the name of  the album.
+
+
+Expected Result:
+It is displayed the page with the albums in this category.
+
+===========================================================================================================================================
+
+TC54: Test the button: "Vote" in the page: "albums"                             // At frame of the album number [1,2,3,....n].Counting starts from above.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2. Click on the hyperlink: "Albums".
+3. Click the button: "Vote".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Rate:"number".
+Button: "Vote".
+
+============================================================================================================================================
+
+TC55: Test button: "Comment" in the page: "Albums"                          // At frame of the album number [1,2,3,....n].Counting starts from above.
+
+Test Priority: Low
+
+1. Open the URL : http://uk.qateam.eu/PhotoAlbum/home/inde. => with browser "Mozilla Firefox".
+2.2. Click on the hyperlink: "Albums".
+3. Click the button: "Comment".
+
+Expected Result:
+It is displayed a box with paragraphs:
+Picture name : "name"
+Comment text: "text" 
+Button: "Create comment".
+
+===========================================================================================================================================
+===========================================================================================================================================
+
+
+Смятам ,че са достатъчни като бройка, тъй като в това домашно съм се концентрирал върху по - подробното описване на всички елементи.
+При всички останли неописани елементи ще се използва същия метод на описване.
+Благодаря за вниманието!
+
+
+
+
+
+
+
+
+

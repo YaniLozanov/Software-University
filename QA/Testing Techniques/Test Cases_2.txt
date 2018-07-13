@@ -1,0 +1,381 @@
+Equivalence Partitioning for field: "Name" valid and invalid:
+
+Valid: All symbols are available( min 3 symbols / max 19 symbols or 0 symbols).
+Invalid: Symbols less than 3 symbols and more than 19 symbols.
+
+=====================================================================================================
+
+Equivalence Partitioning for field: "E-mail:" valid and invalid:
+
+Valid: All symbols are available(min 5 / max 25): (firstString >= 1 && <= 23)@(secondString >= 1 && <= 23)
+&& firstString + secondString + 1 >= 5 symbols && firstString + secondString + 1 <= 25 symbols.
+ 
+Invalid: All formats which are not: (firstString)@(secondString)
+|| firstString + secondString + 1 < 5 symbols || firstString + secondString + 1 > 25 symbols.
+
+=====================================================================================================
+ 
+Equivalence Partitioning for field: "Message" valid and invalid:
+ 
+Valid: All symbols are available(symbols >= 1 && symbols <= 255).
+Invalid: Symbols < 1 || Symbols > 255.
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+                                    TC with focus field:"Name"
+
+
+TC1: Send a message with invalid Name.
+
+Test Priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter invalid Name: -> 2 random symbols
+3. Enter valid E-mail.
+4. Enter valid message.
+5. Click the button:"Send your message".
+
+Expected:
+It is displayed an message:"Моля,използвайте най - малко 3 знака (сега използвате 2).".
+
+====================================================================================================
+
+TC2: Send a message with valid Name.
+
+Test Priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2  Enter valid Name: -> 3 random symbols
+3. Enter valid E-mail.
+4. Enter valid message.
+5. Click the button:"Send your message".
+
+Expected:
+It is displayed an message:"Thanks for submitting the form.".
+
+====================================================================================================
+
+TC3: Send a message with invalid Name.
+
+Test Priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter invalid Name: -> 20 random symbols
+3. Enter valid E-mail.
+4. Enter valid message.
+5. Click the button:"Send your message".
+
+Expected:
+We can not enter more than 19 symbols.
+
+====================================================================================================
+
+TC4: Send a message with valid Name.
+
+Test Priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid Name: -> 19 random symbols
+3. Enter valid E-mail.
+4. Enter valid message.
+5. Click the button:"Send your message".
+
+Expected:
+It is displayed an message:"Thanks for submitting the form.".
+
+====================================================================================================
+
+TC5: Send a message with invalid Name.
+
+Test Priority: Medium
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter invalid Name: -> 1 random symbols
+3. Enter valid E-mail.
+4. Enter valid message.
+5. Click the button:"Send your message".
+
+Expected:
+It is displayed an message:"Моля,използвайте най - малко 3 знака (сега използвате 1).".
+
+====================================================================================================
+
+TC5: Send a message with invalid Name.
+
+Test Priority: Medium
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter invalid Name: -> 21 random symbols
+3. Enter valid E-mail.
+4. Enter valid message.
+5. Click the button:"Send your message".
+
+Expected:
+We can not enter more than 19 symbols.
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+                               TC with focus field:"E-mail"
+
+							   
+TC1: Send a message with valid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.-> (firstString == 3 symbols)@(secondString == 1 symbol)
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message: "Thanks for submitting the form.".
+
+====================================================================================================
+
+TC2: Send a message with invalid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter invalid E-mail.-> (firstString == 2 symbols)@(secondString == 1 symbol)
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message: "Моля използвайте най-малко 5 знака(сега използвате 4 знака).".
+
+====================================================================================================
+
+TC3: Send a message with valid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.-> (firstString == 23 symbols)@(secondString == 1 symbol).
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message: "Thanks for submitting the form.".
+
+====================================================================================================
+
+TC4: Send a message with invalid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter invalid E-mail.-> (firstString == 24 symbols)@(secondString == 1 symbol).
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+We can not enter more than 25 symbols.
+
+====================================================================================================
+
+TC5: Send a message with valid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.-> (firstString == 1 symbols)@(secondString == 3 symbols)
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message: "Thanks for submitting the form.".
+
+====================================================================================================
+
+
+TC6: Send a message with invalid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter invalid E-mail.-> (firstString == 1 symbols)@(secondString == 2 symbols)
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message: "Моля използвайте най-малко 5 знака(сега използвате 4 знака).".
+
+====================================================================================================
+
+TC7: Send a message with valid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.-> (firstString == 1 symbols)@(secondString == 23 symbols).
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message: "Thanks for submitting the form.".
+
+====================================================================================================
+
+TC8: Send a message with invalid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter invalid E-mail.-> (firstString == 1 symbols)@(secondString == 24 symbol).
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+We can not enter more than 25 symbols.
+
+====================================================================================================
+
+TC9: Send a message with invalid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter invalid E-mail.-> (firstString == 4 symbols)@.
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message : "Моля,въведете адрес на ел. поща".
+
+====================================================================================================
+TC10: Send a message with valid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter invalid E-mail.-> @(secondString == 4 symbol).
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message : "Моля,въведете адрес на ел. поща".
+
+====================================================================================================
+
+TC11: Send a message with invalid E-mail.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter invalid E-mail.-> (firstString == 3 symbols)(secondString == 2 symbol).
+4. Enter valid message.
+5.Click the button: "Send your message";
+
+Expected:
+It is displayed message : "Моля,въведете адрес на ел. поща".
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+                                    TC with focus  field:"Message"
+
+TC1: Send a message with valid Message.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.
+4. Enter valid message. -> 1 symbol.
+
+Expected:
+It is displayed message: "Thanks for submitting the form.".
+
+====================================================================================================
+
+TC2: Send a message with invalid Message.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.
+4. Enter invalid message. -> 0 symbol.
+
+Expected:
+It is displayed message: "Моля попълнете полето.".
+
+====================================================================================================
+
+TC3: Send a message with valid Message.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.
+4. Enter valid message. -> 255 symbols.
+
+Expected:
+It is displayed message: "Thanks for submitting the form.".
+
+====================================================================================================
+
+TC4: Send a message with invalid Message.
+
+Test priority: Critical
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.
+4. Enter invalid message. -> 256 symbol.
+
+Expected:
+We can not enter more than 255 symbols.
+
+====================================================================================================
+
+TC5: Send a message with valid Message.
+
+Test priority: Medium
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.
+4. Enter valid message. -> 254 symbols.
+
+Expected:
+It is displayed message: "Thanks for submitting the form.".
+
+=====================================================================================================
+
+TC6: Send a message with valid Message.
+
+Test priority: Medium
+
+1. Open https://box.uk.qateam.eu/04/epbva/
+2. Enter valid name.
+3. Enter valid E-mail.
+4. Enter valid message. -> 2 symbols.
+
+Expected:
+It is displayed message: "Thanks for submitting the form.".
+
+====================================================================================================
+
+Здрвейте, този път написах кейсовете и Equivalence Partitioning по малко по - различен начин с цел
+ако е грешен да ми кажете, а ако не да продължавам така да си ги пиша.
+Като в началото съм включил малко програмистки символи, а не съм сигурен, дали така е позволено.
+
+Мерси и приятен ден. :)
+
+
