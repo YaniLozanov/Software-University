@@ -1,3 +1,10 @@
+<p align= "center" >
+  <a href="">
+    <img src ="https://github.com/YaniLozanov/Software-University/blob/master/Images/Images/PyCharm.png" height="60" width="200">
+  </a>
+</p>
+
+
 
 
 <p align= "center" >
@@ -6,8 +13,23 @@
   </a>
 </p>
 
+
+
+
+
+<p align= "center" >
+  <a href="">
+    <img src ="https://github.com/YaniLozanov/Software-University/blob/master/Images/Images/Jupyter_notebook.png" height="60" width="200">
+  </a>
+</p>
+
 <p align= "center" >
   <a href="https://github.com/YaniLozanov/Software-University/tree/master/Python/Jupyter%20notebook">
     <img src ="https://github.com/YaniLozanov/Software-University/blob/master/Images/Images/Jupyter_notebook_image.png">
   </a>
 </p>
+
+
+
+
+
