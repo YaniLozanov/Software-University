@@ -1,0 +1,38 @@
+#fistBorder
+{
+    background: #d6d6d6 40px;
+    padding: 2px 47px;
+    border: solid 2px red;
+    border-radius: 10px;
+}
+
+#Red
+{
+    color: red;
+}
+
+#secondBorder
+{
+    background: #d6d6d6 40px;
+    padding: 2px 40px;
+    border: solid 2px green;
+    border-radius: 10px;
+}
+
+#Green
+{
+    color: green;
+}
+
+#thirdBorder
+{
+    background: #d6d6d6 40px;
+    padding: 2px 45px;
+    border: solid 2px blue;
+    border-radius: 10px;
+}
+
+#Blue
+{
+    color: blue;
+}
