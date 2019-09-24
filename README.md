@@ -20,6 +20,9 @@
   </a>
 </p>
 
+</br>
+
+
 <p align="center">
   <a href="https://github.com/YaniLozanov/Software-University/tree/master/QA">
     <img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/Gifs/QA.gif">
