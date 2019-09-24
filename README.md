@@ -22,6 +22,7 @@
 
 </br>
 
+<h2 align="center"></h2>
 
 <p align="center">
   <a href="https://github.com/YaniLozanov/Software-University/tree/master/QA">
