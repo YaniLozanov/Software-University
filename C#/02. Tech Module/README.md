@@ -1,13 +1,13 @@
 <h3>In this module I have learned how to use:</h3>
 
 <ul>
-  <il>Data Types and Variables</il>
-  <il>Methods. Debugging and Troubleshooting Code</il>
-  <il>Lists</il>
-  <il>Arrays</il>
-  <il>Dictionaries, Lambda and LINQ</il>
-  <il>Objects and Classes</il>
-  <il>Strings and Text Processing</il>
-  <il>Regular Expressions</il>
+  <li>Data Types and Variables</li>
+  <li>Methods. Debugging and Troubleshooting Code</li>
+  <li>Lists</li>
+  <li>Arrays</li>
+  <li>Dictionaries, Lambda and LINQ</li>
+  <li>Objects and Classes</li>
+  <li>Strings and Text Processing</li>
+  <li>Regular Expressions</li>
 </ul>
 
