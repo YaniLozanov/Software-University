@@ -1,14 +1,14 @@
 
 
 <p align= "center" >
-  <a href="https://github.com/YaniLozanov/Software-University/tree/master/C%23/Entry%20Module/01.Programming%20Basics">
+  <a href="https://github.com/YaniLozanov/Software-University/tree/master/C%23/01.%20Entry%20Module/01.Programming%20Basics">
     <img src ="https://github.com/YaniLozanov/Software-University/blob/master/Images/Images/Programming-Basics-Button.png" height="60" width="200">
   </a>
 </p>
 
 
 <p align= "center" >
-  <a href="https://github.com/YaniLozanov/Software-University/blob/master/Images/Images/Programming-Basics-Image.png">
+  <a href="https://github.com/YaniLozanov/Software-University/tree/master/C%23/01.%20Entry%20Module/01.Programming%20Basics">
     <img src ="https://github.com/YaniLozanov/Software-University/blob/master/Images/Images/Programming-Basics-Image.png" height="40" width="125">
   </a>
 </p>
