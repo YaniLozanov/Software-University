@@ -34,8 +34,8 @@
 <h2 align="center"></h2>
 
 <p align="center">
-  <a href="https://github.com/YaniLozanov/Software-University/tree/master/QA">
-    <img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/Gifs/JS.gif" height="50%" width="90%">
+  <a href="https://github.com/YaniLozanov/Software-University/tree/master/Java%20Script">
+    <img src="https://github.com/YaniLozanov/Software-University/blob/master/Images/Gifs/JS.gif" height="50%" width="96%">
   </a>
 </p>
 
