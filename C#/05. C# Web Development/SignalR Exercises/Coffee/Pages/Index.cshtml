@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-5"><img height="200"  src="https://www.incimages.com/uploaded_files/image/970x450/getty_945685712_2000133420009280406_353733.jpg" /></div>
+            <div class="col-md-7 mt-5">Thank you for using our coffee delivery services!</div>
+        </header>
+        <form>
+            <div class="row">
+                <div class="form-group" col-md-6>
+                    <label htmlFor="product">What's your coffee?</label>
+                    <input type="text" id="product" class="form-control" placeholder="Coffee..."/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label htmlFor="size">Size</label>
+                    <input type="text" id="size" class="form-control" placeholder="Size..."/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col-md-6">
+                    <div id="status"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+<script src="~/lib/aspnet/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/coffee.js"></script>
