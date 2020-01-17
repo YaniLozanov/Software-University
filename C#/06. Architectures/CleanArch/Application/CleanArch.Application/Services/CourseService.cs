@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using CleanArch.Application.Interfaces;
+﻿using CleanArch.Application.Interfaces;
 using CleanArch.Application.ViewModels;
 using CleanArch.Domain.Interfaces;
 
